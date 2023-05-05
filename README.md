@@ -45,8 +45,6 @@ Data are divide by day: <br>
   * That are divide by window:  
     * That are divide by measures. 
     
-The objective of this notebook is to build an algorithm to detect windows that are abnormal.
-
 # <a id="Extrem"></a> 👀 Extreme Window Values
 This analysis is typically performed manually using visualization graphs and descriptive statistics to examine the distribution of the data to can also be used to identify potential outliers or anomalies. By visually inspecting the data and comparing it to the expected distribution, 
 I can identify data points that are significantly different from the majority of the data and may require further investigation.
