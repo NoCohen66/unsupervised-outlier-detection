@@ -32,7 +32,7 @@ This project aims to build an algorithm to detect abnormal window measurements i
 
 # <a id="exp"></a> ⚙️ Data Exploration
 Data exploration is a critical phase in data analysis that enables us to gain a deeper understanding of our data by examining its distribution, correlations, and inconsistencies across different features. 
-- Correlation analysis help me identify relationships between different features. Furthermore, by examining the relationships between features, it can give me an indication for the following work (algorithm choice). 
+- Correlation analysis help me identify relationships between different features. By examining the relationships between features, it can give me an indication for the following work (model selection). 
 - Distribution analysis help me identify potential inconsistencies or errors in the data that might require normalization, correction or cleaning. 
 
 # <a id="For"></a> 🛠️ Windows and Measures
@@ -43,12 +43,13 @@ A plane records a total of 11 features. For reasons of anonymisation we do not k
 Data are divide by day: <br> 
 * That are divide by cycle:  
   * That are divide by window:  
-    * That are divide by measures. (See schema below)
+    * That are divide by measures. 
     
 The objective of this notebook is to build an algorithm to detect windows that are abnormal.
 
 # <a id="Extrem"></a> 👀 Extreme Window Values
-This analysis is typically performed manually using visualization graphs and descriptive statistics to examine the distribution of the data to can also be used to identify potential outliers or anomalies. By visually inspecting the data and comparing it to the expected distribution, data analysts can identify data points that are significantly different from the majority of the data and may require further investigation.
+This analysis is typically performed manually using visualization graphs and descriptive statistics to examine the distribution of the data to can also be used to identify potential outliers or anomalies. By visually inspecting the data and comparing it to the expected distribution, 
+I can identify data points that are significantly different from the majority of the data and may require further investigation.
 
 I also compared this manually-finded extrem window value with the **Isolation Forest** algorithm. 
 Isolation Forest is a useful algorithm for outlier detection because it is: efficient, scalable, and able to handle high-dimensional data. It works by randomly partitioning the data into subsets and then recursively isolating outliers by constructing a tree-based structure. 
@@ -73,3 +74,7 @@ In summary, K-means, DBSCAN, and OPTICS are all good options for detecting outli
 
 # <a id="conclusion_finale"></a> 📝 Conclusion
 In conclusion, clustering algorithm K-means is an effective tools for detecting elements in this dataset that differ significantly from the majority of the data, and can help to identify potential outliers. However, it is important to note that the presence of such outliers does not necessarily imply that they are anomalous or novel. In many cases, a **human expert** must intervene to analyze the results of the clustering algorithms, interpret the meaning of the detected outliers, and decide whether they represent true anomalies or merely noise in the data. Thus, while clustering algorithms can provide a valuable first step in detecting potential outliers, the final decision about whether an observation is truly anomalous or novel ultimately rests with human judgment and expertise.
+
+# 🎓 Authors
+
+Noémie Cohen
