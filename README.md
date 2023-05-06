@@ -17,7 +17,7 @@
 
 
 This notebook explores a plane dataset to see if we can extract **abnormal functionning**.
-The goal is to detect elements in the dataset that differs significantly from the majority of the data.
+The goal is to detect elements in the dataset that differs significantly from the majority of the data.   
 All the material is accessible from 🚀 [Notebook - **outlier detection**](anomalies.ipynb).
 
 # 📚 Table of contents
